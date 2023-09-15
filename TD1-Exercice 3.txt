@@ -1,0 +1,18 @@
+ALGORITHME Division
+	DEBUT DEFINIR
+	réel : a,b,resultat
+	FIN DEFINIR
+	
+	DEBUT
+		afficher "Donner la valeur de a svp"
+		lire a
+		afficher "Donner la valeur de b svp"
+		lire b
+		SI b = 0
+			afficher "pas de résultat, division par zéro"
+		SINON
+			resultat = a/b
+		FINSI
+		afficher "le resultat de a/b est :", resultat
+	FIN
+STOP
