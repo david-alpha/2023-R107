@@ -1,0 +1,18 @@
+Algo Bénéfice
+DEFINIR
+	coutFilm, nbSemaine : 		entier	
+	recette, totalRecette : 	reel
+FIN DEFINIR				
+	DEBUT
+		nbSemaine = 0
+		CoutFilm = 150 000 000
+		recette = 31 000 000
+		totalRecette = 0
+		ECRIRE "ce prog permet de calculer la rentabilité d'un film"
+		TANTQUE (totalRecette < CoutFilm)
+			totalRecette = totalRecette + recette
+			nbSemaine = nbSemaine +1
+			recette = recette * 0,80
+		FIN TANTQUE
+		ECRIRE "le nombre de semaine est " nbSemaine
+	FIN
