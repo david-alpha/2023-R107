@@ -1,0 +1,17 @@
+ALGORITHME factorielle - pour
+	DEBUT DEFINIR
+	entier : n,i,resultat
+	FIN DEFINIR
+	
+	DEBUT
+		FAIRE
+			AFFICHER "Donner n, svp"
+			LIRE n
+		TANT QUE n < 2
+		resultat <- 1
+		POUR i allant de 1 à n
+			resultat = resultat * i
+		FIN POUR
+		AFFICHER "n! = resultat"
+	FIN
+STOP

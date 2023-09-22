@@ -1,0 +1,18 @@
+ALGORITHME factorielle - while
+	DEBUT DEFINIR
+	entier : n,resultat
+	FIN DEFINIR
+	
+	DEBUT
+		FAIRE
+			AFFICHER "Donner n, svp"
+			LIRE n
+		TANT QUE n < 2
+		resultat <- 1
+		TANT QUE (n != 1)
+			resultat = resultat * n
+			n <- n - 1		
+		FIN TANT QUE
+		AFFICHER "n! = resultat"
+	FIN
+STOP
